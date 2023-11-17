@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    #header,
+    .mb-4,
+    .slogan,
+    input,
+    #header button {
+        width: 100%;
+    }
+
+    .nav ul {
+        margin-left: 0;
+    }
+
+    .nav ul li {
+        margin-right: 20px;
+    }
+
+    .sidebar {
+        flex-basis: 100%;
+    }
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#wrapper {
+    background-color: #f8f9fa;
+}
+
+    table.table a {
+        color: #000;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    table.table a:hover,
+    table.table a.active {
+        color: #4db2ec;
+    }
+
+.mb-4{
+    outline: none;
+    width: 1140px;
+    margin: 0px auto;
+    font-size: 70px;
+    border: none;
+    z-index: 0;
+    font-family: 'Playfair Display', serif;
+}
